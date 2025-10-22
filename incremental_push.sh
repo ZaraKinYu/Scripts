@@ -6,7 +6,7 @@ set -euo pipefail
 # ============================
 BRANCH_NAME="${1:-$(git rev-parse --abbrev-ref HEAD)}" # arg1 atau current branch
 REMOTE_NAME="${2:-origin}"                             # arg2 atau origin
-STEP_SIZE="${3:-20000}"                               # arg3 atau default 1000
+STEP_SIZE="${3:-30000}"                               # arg3 atau default 1000
 
 # ============================
 # Step 1: Ambil setiap nth commit
